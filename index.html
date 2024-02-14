@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page HTML</title>
+    <style>
+        body {
+            background-color: #404040;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .sidebar{
+            border-radius: 20px;
+            background-color: #121212;
+            position:fixed;
+            top:0;
+            left:0;
+            bottom:0;
+            padding:12px;
+            width:300px;
+        }
+        .sidebar .usuario{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .sidebar .usuario a{
+            color: aqua;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .main{
+            height: 84vh;
+            padding: 16px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: #121212;
+            max-width: 80vw;
+            margin-left: 330px;
+            margin-right: 15px;
+        }
+        .introducao { color: azure;}
+        .tabela{
+            color: aqua;
+            
+        }
+        .tabela .borda{
+            border: 1px dashed black;
+            border-radius: 20px;
+        }
+        .tabela .borda tr td{
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+
+        .footer{
+            position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #010101, #202020);
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+    integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+</head>
+<body>
+    <!--SIDEBAR-->
+    <div class="sidebar">
+        <nav class="sidebar_navigation">
+            <div class="usuario">
+                <a href="">
+                    <span class="fa fa-user"></span>
+                    <span>Usuário</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!--HEADER-->
+    <div>
+
+    </div>
+
+    <!--MAIN-->
+    <div class="main">
+        <div class="introducao"> 
+            <h1>Uso de Smartphones em diferentes Faixas Etárias: Um Estudo Explorátorio</h1>
+            <h2>Introdução</h2>
+            <p>Com o avanço da tecnologia, os smartphones se tornaram uma parte indispensável da vida cotidiana para muitas pessoas. Esta pesquisa pretende explorar como o uso de smartphones varia entre diferentes faixas etárias, analisando hábitos de uso, preferências de aplicativos e preocupações com privacidade e segurança.</p>
+            <h2>Metodologia</h2>
+            <p>Foi conduzida uma pesquisa online com uma amostra de 1000 participantes representativos de diferentes faixas etárias (18-25 anos, 26-40 anos, 41-60 anos e acima de 60 anos). Os participantes foram selecionados aleatoriamente de uma ampla variedade de regiões geográficas. A pesquisa foi composta por perguntas fechadas e abertas, abordando diversos aspectos do uso de smartphones.</p>
+            
+        </div>
+
+        <div class="tabela">
+            <h2>Resultados:</h2>
+            <table class="borda">
+                <tr >
+                    <td><h3>Demográfia</h3></td>
+                    <td><h3>Posse e Smartphone</h3></td>
+                    <td><h3>Tempo de Uso Diário</h3></td>
+                    <td><h3>Principais Atividades</h3></td>
+                    <td><h3>Preocupações com Privacidade</h3></td>
+                    <td><h3>Preferências de Aplicativos</h3></td>
+                </tr>
+                <tr>
+                    <td><p>A amostra foi composta por 250 participantes em cada faixa etária.</p></td>
+                    <td><p>A posse de smartphones foi mais alta na faixa etária de 18-25 anos (96%), seguida pela faixa etária de 26-40 anos (89%), 41-60 anos (73%) e acima de 60 anos (51%).</p></td>
+                    <td><p>A faixa etária de 18-25 anos relatou o maior tempo médio de uso diário de smartphones, com uma média de 5 horas, seguida pela faixa etária de 26-40 anos (4 horas), 41-60 anos (3 horas) e acima de 60 anos (2 horas).</p></td>
+                    <td><p>O uso de mídias sociais foi a atividade mais comum em todas as faixas etárias, seguido por comunicação (chamadas, mensagens) e entretenimento (vídeos, jogos).</p></td>
+                    <td><p>As preocupações com privacidade e segurança aumentaram com a idade. Os participantes mais jovens tendiam a estar menos preocupados com questões de privacidade do que os participantes mais velhos.</p></td>
+                    <td><p>Houve diferenças significativas nas preferências de aplicativos entre as faixas etárias. Por exemplo, os participantes mais jovens preferiam aplicativos de redes sociais e jogos, enquanto os mais velhos preferiam aplicativos de notícias e utilitários.</p></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="fontes">
+            <table>
+                <tr>
+                    <td>
+                        <h1>FONTES</h1>
+                    </td>
+                    <td>
+                        <div class="estudos">
+                        <h2>Estudos Acadêmicos</h2>
+                            <h4><a href="https://scholar.google.com/">Google Scholar</a></h4>
+                            <h4><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></h4>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="relatorios">
+                            <h2>Relatórios de mercado</h2>
+                                <h4><a href="https://www.statista.com/">Statista</a></h4>
+                                <h4><a href="https://www.gartner.com/">Gartner</a></h4>
+                                <h4><a href="https://www.idc.com/IDC">IDC</a></h4>
+                            </div>
+                    </td>
+                </tr>
+                <tr>
+                    
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer>
+        <div class="footer" style="background-color: black;">
+          <p style=" color: azure;">&copy; 2024 Jeffter Mayron. Todos os direitos reservados.</p>
+          <ul class="links">
+            <li><a href="#">
+                <span></span>
+                <span>LinkedIn</span>
+            </a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
+</html>
